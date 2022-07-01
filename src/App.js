@@ -11,6 +11,7 @@ const Smile=()=>{
                      <div>
                          <h1>Name of cricketer is: {value.data.name}</h1>
                          <h2>Age of {value.data.name} is {value.data.age}</h2>
+                         <button onClick={value.updateAge}>Update Sachin age</button>
                          <h3>and {value.data.name} is a very good {value.data.role}</h3>
                      </div>
                 )
